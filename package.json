@@ -1,0 +1,65 @@
+{
+  "name": "svelte-library-template",
+  "version": "0.0.1",
+  "description": "",
+  "svelte": "src/index.ts",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "src",
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "test": "jest test",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@rollup/plugin-typescript": "^8.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/svelte": "^3.0.3",
+    "@tsconfig/svelte": "^2.0.0",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.1.0",
+    "jest": "^27.3.1",
+    "rollup": "^2.58.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "sveld": "^0.10.2",
+    "svelte": "^3.44.0",
+    "svelte-jester": "^2.1.5",
+    "svelte-loader": "^3.1.2",
+    "svelte-preprocess": "^4.9.8",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.svelte$": [
+        "svelte-jester",
+        {
+          "preprocess": true
+        }
+      ],
+      "^.+\\.ts$": "ts-jest",
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "svelte"
+    ]
+  }
+}
