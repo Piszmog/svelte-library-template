@@ -10,6 +10,7 @@ The template library comes with,
 * Generation of Typings
 
 ## How To Use
+
 ### degit
 
 You can use `degit` to create a project with this template.
@@ -24,4 +25,10 @@ You can click the button (__Use This Template__) at the top to create your own r
 
 ## Why Another Template?
 
-There are a few __Svelte__ templates out there for setting up a Library of sharable components. But either these templates were out-of-date, incorrectly setup, or had their own issues. This template is based on all the other Svelte Templates out there.
+There are a few __Svelte__ templates out there for setting up a Library of sharable components. But either these
+templates were out-of-date, incorrectly setup, or had their own issues. This template is based on all the other Svelte
+Templates out there.
+
+## Tailwind
+
+See the `tailwind` branch for example of integrating Tailwind into the library with Storybook.
