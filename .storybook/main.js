@@ -1,6 +1,9 @@
 const path = require('path');
 
 module.exports = {
+    features: {
+        postcss: true
+    },
     "stories": [
         "../src/**/*.stories.mdx",
         "../src/**/*.stories.@(js|jsx|ts|tsx|svelte)"
@@ -8,7 +11,8 @@ module.exports = {
     "addons": [
         "@storybook/addon-links",
         "@storybook/addon-essentials",
-        "@storybook/addon-svelte-csf"
+        "@storybook/addon-svelte-csf",
+        "@storybook/addon-postcss"
     ],
     "svelteOptions": {
         "preprocess": require("../svelte.config.js").preprocess

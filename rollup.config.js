@@ -35,7 +35,9 @@ export default {
     ],
     plugins: [
         svelte({
-            preprocess: sveltePreprocess(),
+            preprocess: sveltePreprocess({
+                postcss: true,
+            }),
         }),
         typescript(),
         resolve(),
