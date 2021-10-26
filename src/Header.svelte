@@ -1,4 +1,7 @@
 <script lang="ts">
+    /**
+     * The value of the header.
+     */
     export let value: string;
 </script>
 
