@@ -6,6 +6,7 @@ The template library comes with,
 
 * Typescript
 * Jest
+* Storybook
 * Generation of Typings
 
 ## How To Use
@@ -30,5 +31,3 @@ There are a few __Svelte__ templates out there for setting up a Library of shara
 Items I want to add to the template,
 
 * GitHub Pages
-* Storybook
-    * Having issues with Storybook working with Typescript
