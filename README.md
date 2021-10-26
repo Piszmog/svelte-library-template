@@ -25,9 +25,3 @@ You can click the button (__Use This Template__) at the top to create your own r
 ## Why Another Template?
 
 There are a few __Svelte__ templates out there for setting up a Library of sharable components. But either these templates were out-of-date, incorrectly setup, or had their own issues. This template is based on all the other Svelte Templates out there.
-
-## Roadmap
-
-Items I want to add to the template,
-
-* GitHub Pages
