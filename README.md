@@ -8,6 +8,7 @@ The template library comes with,
 * Jest
 * Storybook
 * Generation of Typings
+* Tailwind
 
 ## How To Use
 ### degit
@@ -15,7 +16,7 @@ The template library comes with,
 You can use `degit` to create a project with this template.
 
 ```shell
-npx degit Piszmog/svelte-library-template my-svelte-lib
+npx degit Piszmog/svelte-library-template#tailwind my-svelte-lib
 ```
 
 ### GitHub
