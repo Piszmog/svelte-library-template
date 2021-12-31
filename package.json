@@ -16,7 +16,7 @@
     "build-storybookv17": "del-cli docs && node --openssl-legacy-provider ./node_modules/@storybook/svelte/bin/build.js -c .storybook -o docs"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
+    "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.5",
     "@rollup/plugin-node-resolve": "^13.1.1",
     "@rollup/plugin-typescript": "^8.0.0",
