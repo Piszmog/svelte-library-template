@@ -32,5 +32,3 @@ Templates out there.
 ## Tailwind
 
 See the `tailwind` branch for example of integrating Tailwind into the library with Storybook.
-
-
