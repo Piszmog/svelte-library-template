@@ -24,7 +24,7 @@
     "@storybook/addon-essentials": "^6.4.10",
     "@storybook/addon-links": "^6.4.12",
     "@storybook/addon-svelte-csf": "^1.1.0",
-    "@storybook/svelte": "^6.4.10",
+    "@storybook/svelte": "^6.4.12",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/svelte": "^3.0.3",
     "@tsconfig/svelte": "^3.0.0",
