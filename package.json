@@ -1,7 +1,7 @@
 {
   "name": "svelte-library-template",
   "version": "0.0.1",
-  "description": "",
+  "description": "Test desc",
   "svelte": "src/index.ts",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
