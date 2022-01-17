@@ -1,56 +1,30 @@
 {
-  "name": "svelte-library-template",
-  "version": "0.0.1",
-  "description": "Test desc",
-  "svelte": "src/index.ts",
-  "module": "dist/index.mjs",
-  "main": "dist/index.js",
-  "types": "types/index.d.ts",
+  "name": "next-version",
+  "version": "0.1.0",
+  "description": "Increments a project to the next version.",
+  "main": "index.js",
   "scripts": {
-    "build": "rollup -c",
-    "prepublishOnly": "npm run build",
     "test": "jest",
-    "storybook": "start-storybook -p 6006",
-    "storybookv17": "node --openssl-legacy-provider ./node_modules/@storybook/svelte/bin/index.js -p 6006",
-    "build-storybook": "del-cli docs && build-storybook -c .storybook -o docs",
-    "build-storybookv17": "del-cli docs && node --openssl-legacy-provider ./node_modules/@storybook/svelte/bin/build.js -c .storybook -o docs"
+    "build": "-o dist --source-map --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piszmog/next-version.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Piszmog/next-version/issues"
+  },
+  "homepage": "https://github.com/Piszmog/next-version#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "fs": "^0.0.1-security"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.7",
-    "@babel/preset-env": "^7.16.8",
-    "@rollup/plugin-node-resolve": "^13.1.3",
-    "@rollup/plugin-typescript": "^8.0.0",
-    "@storybook/addon-actions": "^6.4.12",
-    "@storybook/addon-essentials": "^6.4.12",
-    "@storybook/addon-links": "^6.4.12",
-    "@storybook/addon-svelte-csf": "^1.1.0",
-    "@storybook/svelte": "^6.4.12",
-    "@testing-library/jest-dom": "^5.16.1",
-    "@testing-library/svelte": "^3.0.3",
-    "@tsconfig/svelte": "^3.0.0",
-    "@types/jest": "^27.4.0",
-    "babel-jest": "^27.4.6",
-    "babel-loader": "^8.1.0",
-    "del-cli": "^4.0.1",
-    "jest": "^27.4.7",
-    "rollup": "^2.63.0",
-    "rollup-plugin-svelte": "^7.0.0",
-    "rollup-plugin-terser": "^7.0.0",
-    "sveld": "^0.12.0",
-    "svelte": "^3.46.1",
-    "svelte-jester": "^2.1.5",
-    "svelte-loader": "^3.1.2",
-    "svelte-preprocess": "^4.10.1",
-    "ts-jest": "^27.1.2",
-    "tslib": "^2.3.1",
-    "typescript": "^4.5.4"
-  },
-  "keywords": [
-    "svelte"
-  ],
-  "files": [
-    "src",
-    "dist",
-    "types"
-  ]
+    "@vercel/ncc": "^0.33.1",
+    "jest": "^27.4.7"
+  }
 }
