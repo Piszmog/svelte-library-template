@@ -1,10 +1,10 @@
 name: Auto-Merge
 on:
-  pull_request_target:
+  pull_request:
     types:
       - labeled
-      - synchronized
-
+      - synchronize
+    branches: [ main ]
 jobs:
   enable-auto-merge:
     runs-on: ubuntu-latest
